@@ -146,7 +146,7 @@
   
   section {
     padding-top: 4vh;
-    height: 96vh;
+    height: 70vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -167,11 +167,21 @@
   
   .section__pic-container {
     display: flex;
-    height: 400px;
+    height: 600px;
+    width: 600px;
+    margin: auto 0;
+    
+  }
+
+  .profilepic{
+    display: flex;
+    height: 600px;
     width: 400px;
     margin: auto 0;
+    border-radius: 2rem;
   }
-  
+
+
   .section__text {
     align-self: center;
     text-align: center;
@@ -207,6 +217,12 @@
   .icon {
     cursor: pointer;
     height: 2rem;
+  }
+  
+  .uicon {
+    cursor: pointer;
+    height: 90px;
+    width: 90px;
   }
   
   /* BUTTONS */
@@ -304,10 +320,13 @@
     height: 80%;
   }
   
-  .section__pic-container {
-    height: 400px;
-    width: 400px;
-    margin: auto 0;
+
+  .education {
+    text-align: left;
+    justify-content: center;
+    display: flex;
+    gap: 0.5rem;
+
   }
   
   /* EXPERIENCE SECTION */
@@ -325,7 +344,7 @@
   
   .experience-details-container {
     display: flex;
-    justify-content: center;
+    
     flex-direction: column;
   }
   
@@ -361,11 +380,17 @@
   }
   
   .project-img {
-    border-radius: 2rem;
     width: 90%;
     height: 90%;
   }
   
+  .project-img2 {
+    border-radius: 2rem;
+    width: 30%;
+    height: 30%;
+  }
+  
+
   .project-title {
     margin: 1rem;
     color: black;
@@ -382,7 +407,7 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
   }
   
   .contact-info-upper-container {
