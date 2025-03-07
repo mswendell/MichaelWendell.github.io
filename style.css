@@ -170,14 +170,11 @@
     height: 600px;
     width: 600px;
     margin: auto 0;
-    
+    border-radius: 2rem;
+    justify-content: center;
   }
 
   .profilepic{
-    display: flex;
-    height: 600px;
-    width: 400px;
-    margin: auto 0;
     border-radius: 2rem;
   }
 
